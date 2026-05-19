@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="720" viewBox="0 0 1600 720" role="img" aria-labelledby="title desc">
+  <title id="title">Smart Factory and AI development map</title>
+  <desc id="desc">A visual map showing sensor data flowing through edge gateways, data platforms, AI models, and operation dashboards.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#14213d"/>
+      <stop offset="48%" stop-color="#1b4332"/>
+      <stop offset="100%" stop-color="#2f3e46"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#80ed99"/>
+      <stop offset="50%" stop-color="#4cc9f0"/>
+      <stop offset="100%" stop-color="#ffd166"/>
+    </linearGradient>
+    <filter id="soft-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#07111f" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="720" fill="url(#bg)"/>
+  <path d="M0 565 C210 500 330 615 520 555 C710 495 790 410 990 458 C1200 508 1290 610 1600 520 L1600 720 L0 720 Z" fill="#0b1324" opacity="0.32"/>
+  <path d="M0 120 C230 160 290 50 485 88 C690 130 735 205 930 170 C1140 132 1235 44 1600 96" fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="3"/>
+  <path d="M0 190 C260 240 350 120 570 168 C790 218 890 310 1110 252 C1330 194 1420 128 1600 158" fill="none" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2"/>
+
+  <g filter="url(#soft-shadow)">
+    <rect x="115" y="258" width="240" height="132" rx="8" fill="#f8fafc" opacity="0.95"/>
+    <rect x="425" y="258" width="240" height="132" rx="8" fill="#f8fafc" opacity="0.95"/>
+    <rect x="735" y="258" width="240" height="132" rx="8" fill="#f8fafc" opacity="0.95"/>
+    <rect x="1045" y="258" width="240" height="132" rx="8" fill="#f8fafc" opacity="0.95"/>
+    <rect x="1355" y="258" width="130" height="132" rx="8" fill="#f8fafc" opacity="0.95"/>
+  </g>
+
+  <g font-family="Inter, Segoe UI, Arial, sans-serif" fill="#0f172a">
+    <text x="155" y="302" font-size="26" font-weight="700">Sensors</text>
+    <text x="155" y="340" font-size="18">PLC · Vision · IoT</text>
+    <text x="155" y="367" font-size="18">machine signals</text>
+
+    <text x="465" y="302" font-size="26" font-weight="700">Edge Gateway</text>
+    <text x="465" y="340" font-size="18">collection · filtering</text>
+    <text x="465" y="367" font-size="18">protocol bridge</text>
+
+    <text x="775" y="302" font-size="26" font-weight="700">Data Platform</text>
+    <text x="775" y="340" font-size="18">events · time series</text>
+    <text x="775" y="367" font-size="18">storage · APIs</text>
+
+    <text x="1085" y="302" font-size="26" font-weight="700">AI Models</text>
+    <text x="1085" y="340" font-size="18">prediction · RAG</text>
+    <text x="1085" y="367" font-size="18">automation</text>
+
+    <text x="1381" y="302" font-size="24" font-weight="700">Ops</text>
+    <text x="1381" y="340" font-size="17">monitor</text>
+    <text x="1381" y="367" font-size="17">control</text>
+  </g>
+
+  <g fill="none" stroke="url(#line)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M355 324 H425"/>
+    <path d="M665 324 H735"/>
+    <path d="M975 324 H1045"/>
+    <path d="M1285 324 H1355"/>
+  </g>
+
+  <g fill="#ffffff" opacity="0.92">
+    <circle cx="390" cy="324" r="8"/>
+    <circle cx="700" cy="324" r="8"/>
+    <circle cx="1010" cy="324" r="8"/>
+    <circle cx="1320" cy="324" r="8"/>
+  </g>
+
+  <g fill="#80ed99" opacity="0.75">
+    <circle cx="245" cy="206" r="5"/>
+    <circle cx="518" cy="166" r="4"/>
+    <circle cx="895" cy="198" r="6"/>
+    <circle cx="1215" cy="174" r="4"/>
+    <circle cx="1435" cy="454" r="5"/>
+  </g>
+
+</svg>
