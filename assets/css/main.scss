@@ -39,3 +39,40 @@
 .back-to-top {
   font-size: 10px;
 }
+
+// Keep theme controls proportional to the compact reading scale.
+.btn,
+.page__hero--overlay .btn,
+.author__urls-wrapper .btn {
+  padding: 0.35rem 0.6rem;
+  font-size: 12px;
+  line-height: 1.2;
+  border-radius: 4px;
+}
+
+.page__share .btn {
+  padding: 0.3rem 0.5rem;
+  font-size: 11px;
+}
+
+.pagination {
+  margin-top: 1.25rem;
+  padding-top: 0.75rem;
+  font-size: 12px;
+}
+
+.pagination ul {
+  margin: 0;
+}
+
+.pagination li a,
+.pagination--pager {
+  padding: 0.45rem 0.65rem;
+  font-size: 12px;
+  line-height: 1.25;
+  border-radius: 4px;
+}
+
+.pagination--pager {
+  min-height: 0;
+}
