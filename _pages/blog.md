@@ -1,5 +1,5 @@
 ---
-title: "Blog"
+title: "글"
 layout: posts
 permalink: /blog/
 author_profile: true

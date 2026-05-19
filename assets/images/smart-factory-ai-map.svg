@@ -23,33 +23,11 @@
   <path d="M0 190 C260 240 350 120 570 168 C790 218 890 310 1110 252 C1330 194 1420 128 1600 158" fill="none" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2"/>
 
   <g filter="url(#soft-shadow)">
-    <rect x="115" y="258" width="240" height="132" rx="8" fill="#f8fafc" opacity="0.95"/>
-    <rect x="425" y="258" width="240" height="132" rx="8" fill="#f8fafc" opacity="0.95"/>
-    <rect x="735" y="258" width="240" height="132" rx="8" fill="#f8fafc" opacity="0.95"/>
-    <rect x="1045" y="258" width="240" height="132" rx="8" fill="#f8fafc" opacity="0.95"/>
-    <rect x="1355" y="258" width="130" height="132" rx="8" fill="#f8fafc" opacity="0.95"/>
-  </g>
-
-  <g font-family="Inter, Segoe UI, Arial, sans-serif" fill="#0f172a">
-    <text x="155" y="302" font-size="26" font-weight="700">Sensors</text>
-    <text x="155" y="340" font-size="18">PLC · Vision · IoT</text>
-    <text x="155" y="367" font-size="18">machine signals</text>
-
-    <text x="465" y="302" font-size="26" font-weight="700">Edge Gateway</text>
-    <text x="465" y="340" font-size="18">collection · filtering</text>
-    <text x="465" y="367" font-size="18">protocol bridge</text>
-
-    <text x="775" y="302" font-size="26" font-weight="700">Data Platform</text>
-    <text x="775" y="340" font-size="18">events · time series</text>
-    <text x="775" y="367" font-size="18">storage · APIs</text>
-
-    <text x="1085" y="302" font-size="26" font-weight="700">AI Models</text>
-    <text x="1085" y="340" font-size="18">prediction · RAG</text>
-    <text x="1085" y="367" font-size="18">automation</text>
-
-    <text x="1381" y="302" font-size="24" font-weight="700">Ops</text>
-    <text x="1381" y="340" font-size="17">monitor</text>
-    <text x="1381" y="367" font-size="17">control</text>
+    <rect x="115" y="258" width="240" height="132" rx="8" fill="#d9f3f0" opacity="0.16" stroke="#ffffff" stroke-opacity="0.2"/>
+    <rect x="425" y="258" width="240" height="132" rx="8" fill="#d9f3f0" opacity="0.16" stroke="#ffffff" stroke-opacity="0.2"/>
+    <rect x="735" y="258" width="240" height="132" rx="8" fill="#d9f3f0" opacity="0.16" stroke="#ffffff" stroke-opacity="0.2"/>
+    <rect x="1045" y="258" width="240" height="132" rx="8" fill="#d9f3f0" opacity="0.16" stroke="#ffffff" stroke-opacity="0.2"/>
+    <rect x="1355" y="258" width="130" height="132" rx="8" fill="#d9f3f0" opacity="0.16" stroke="#ffffff" stroke-opacity="0.2"/>
   </g>
 
   <g fill="none" stroke="url(#line)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
