@@ -29,6 +29,39 @@
   font-size: 12px;
 }
 
+.layout--home .page__hero--overlay {
+  padding: 3.5rem 0;
+}
+
+.layout--home .page__title {
+  font-size: 1.45rem;
+  line-height: 1.25;
+}
+
+.layout--home .page__lead {
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.layout--home .page__content h2,
+.layout--home .archive__subtitle {
+  font-size: 15px;
+}
+
+.layout--home .archive__item-title {
+  font-size: 15px;
+  line-height: 1.35;
+}
+
+.layout--home .archive__item-excerpt {
+  font-size: 12px;
+  line-height: 1.55;
+}
+
+.layout--home .list__item {
+  margin-bottom: 1.25rem;
+}
+
 .page__meta,
 .page__taxonomy-item,
 .taxonomy__count {
