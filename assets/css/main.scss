@@ -8,22 +8,34 @@
 @import "minimal-mistakes";
 
 .page__content {
-  font-size: 11px;
-  line-height: 1.75;
+  font-size: 14px;
+  line-height: 1.7;
 }
 
 .page__content p,
 .page__content li,
 .page__content dl,
 .page__content table,
-.page__content blockquote,
+.page__content blockquote {
+  font-size: 14px;
+}
+
 .page__content code,
 .page__content pre {
+  font-size: 13px;
+}
+
+.archive__item-excerpt {
+  font-size: 12px;
+}
+
+.page__meta,
+.page__taxonomy-item,
+.taxonomy__count {
   font-size: 11px;
 }
 
-.archive__item-excerpt,
-.page__meta,
-.taxonomy__count {
-  font-size: 11px;
+.breadcrumbs,
+.back-to-top {
+  font-size: 10px;
 }
